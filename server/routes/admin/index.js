@@ -29,7 +29,7 @@ module.exports = app => {
     }
     const items = await req.Model.find()
       .setOptions(queryOptions)
-      .limit(10);
+      .limit(100);
     // 添加populate('parent')使请求返回对象的parent由一个id变为一个对象
     res.send(items);
   });

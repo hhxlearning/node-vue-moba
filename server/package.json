@@ -9,5 +9,16 @@
   },
   "keywords": [],
   "author": "",
-  "license": "ISC"
+  "license": "ISC",
+  "dependencies": {
+    "http-assert": "^1.4.1",
+    "jsonwebtoken": "^8.5.1",
+    "bcrypt": "^3.0.6",
+    "cors": "^2.8.5",
+    "express": "^5.0.0-alpha.7",
+    "inflection": "^1.12.0",
+    "mongoose": "^5.5.6",
+    "multer": "^1.4.1",
+    "require-all": "^3.0.0"
+  }
 }
